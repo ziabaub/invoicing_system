@@ -1,10 +1,10 @@
 package accounter;
 
-import accounter.builder.NavigatorBuilder;
-import accounter.entity.document.InvoiceList;
-import accounter.file.reader.JsonParser;
-import accounter.file.writer.JsonWriter;
-import accounter.singelton.data.SingletonResources;
+import accounter.gui.builder.NavigatorBuilder;
+import accounter.backend.entity.InvoiceList;
+import accounter.backend.fileIO.reader.JsonParser;
+import accounter.backend.fileIO.writer.JsonWriter;
+import accounter.backend.singelton.data.SingletonResources;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
